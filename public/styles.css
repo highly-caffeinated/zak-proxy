@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr 853px 427px 1fr;
+  grid-template-rows: repeat(29, 100px) fit-content(100%);
+}
+
+#header {
+  grid-column: 1/5;
+  grid-row: 1;
+  border: solid;
+  border-color: rgba(34, 34, 34, 0.15);
+  border-width: 2px;
+  border-top: none;
+  border-left:none;
+  border-right: none;
+  background-image: url('https://croxy-proxy-eric-bucket.s3.us-east-2.amazonaws.com/imgs/etsyheader.png');
+  background-size: 1280px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#image {
+  grid-column: 2/3;
+  grid-row: 2/8;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+  border: none;
+}
+
+#cart {
+  grid-column: 3/4;
+  grid-row: 2/24;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+  border: none;
+}
+
+#reviews {
+  grid-column: 2/3;
+  grid-row: 8/24;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+  border: none;
+}
+
+#related {
+  grid-column: 1/5;
+  grid-row: 24/31;
+  border: none;
+}
+
+#footer {
+  grid-column: 1/5;
+  grid-row: 31/32;
+  width: 100%;
+}
