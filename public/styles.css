@@ -17,8 +17,7 @@ body {
   border-top: none;
   border-left:none;
   border-right: none;
-  background-image: url('https://croxy-proxy-eric-bucket.s3.us-east-2.amazonaws.com/imgs/etsyheader.png');
-  background-size: 1280px;
+  background-image: url('https://highly-caffeinated-headerfooter.s3-us-west-2.amazonaws.com/header.png');
   background-position: center;
   background-repeat: no-repeat;
 }
